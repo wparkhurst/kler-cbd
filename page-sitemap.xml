@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://klercbd.com/</loc>
-		<lastmod>2019-07-08T16:52:11-07:00</lastmod>
+		<lastmod>2019-07-10T08:16:42-07:00</lastmod>
 		<image:image>
 			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/icon-kler-cbd-sm.png</image:loc>
 		</image:image>
@@ -45,15 +45,6 @@
 		<image:image>
 			<image:loc>https://klercbd.com/wp-content/uploads/2018/10/weedware-screens.png</image:loc>
 			<image:caption><![CDATA[WeedWare Application Screens]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/testimonial-emerald.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/YiLo-Squared-Logo-e1560988833608.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/testimonial-infusion.png</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -153,26 +144,6 @@
 		<lastmod>2019-06-20T15:12:38-07:00</lastmod>
 	</url>
 	<url>
-		<loc>https://klercbd.com/company/</loc>
-		<lastmod>2019-06-20T15:14:24-07:00</lastmod>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/jason-saunders-1.jpg</image:loc>
-			<image:caption><![CDATA[Jason Saunders, CEO]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/brian-benene-smile-1.jpg</image:loc>
-			<image:caption><![CDATA[Brian Benene, COO]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/rod-lenniger-5.jpg</image:loc>
-			<image:caption><![CDATA[Rod Lenniger, President]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2019/02/weedware-implementation-1902.png</image:loc>
-			<image:caption><![CDATA[WeedWare Development Process]]></image:caption>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://klercbd.com/thc/</loc>
 		<lastmod>2019-06-26T16:07:56-07:00</lastmod>
 		<image:image>
@@ -189,13 +160,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/dashboards.png</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://klercbd.com/features/grow/</loc>
-		<lastmod>2019-06-27T16:32:34-07:00</lastmod>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/grow.png</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -242,24 +206,21 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://klercbd.com/features/pos/</loc>
-		<lastmod>2019-06-28T17:44:07-07:00</lastmod>
+		<loc>https://klercbd.com/support/</loc>
+		<lastmod>2019-07-01T06:58:00-07:00</lastmod>
 		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/POS-SS-1.png</image:loc>
+			<image:loc>https://klercbd.com/wp-content/uploads/2019/07/kler-knowledge-baset.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/WeedWareAndroidProducts.png</image:loc>
+			<image:loc>https://klercbd.com/wp-content/uploads/2019/07/kler-support.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/WeedWareAndroidPayment.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/disco-ss-2.png</image:loc>
+			<image:loc>https://klercbd.com/wp-content/uploads/2019/02/teamviewer.png</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://klercbd.com/cbd/</loc>
-		<lastmod>2019-07-01T06:46:06-07:00</lastmod>
+		<lastmod>2019-07-08T17:48:23-07:00</lastmod>
 		<image:image>
 			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/KlerCBDIcon256.png</image:loc>
 		</image:image>
@@ -280,25 +241,55 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://klercbd.com/support/</loc>
-		<lastmod>2019-07-01T06:58:00-07:00</lastmod>
+		<loc>https://klercbd.com/features/pos/</loc>
+		<lastmod>2019-07-10T08:23:12-07:00</lastmod>
 		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2019/07/kler-knowledge-baset.png</image:loc>
+			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/POS-SS-1.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2019/07/kler-support.png</image:loc>
+			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/WeedWareAndroidProducts.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2019/02/teamviewer.png</image:loc>
+			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/WeedWareAndroidPayment.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/disco-ss-2.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://klercbd.com/features/grow/</loc>
+		<lastmod>2019-07-10T08:27:04-07:00</lastmod>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/grow.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://klercbd.com/company/</loc>
+		<lastmod>2019-07-10T08:32:10-07:00</lastmod>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/jason-saunders-1.jpg</image:loc>
+			<image:caption><![CDATA[Jason Saunders, CEO]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/brian-benene-smile-1.jpg</image:loc>
+			<image:caption><![CDATA[Brian Benene, COO]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/rod-lenniger-5.jpg</image:loc>
+			<image:caption><![CDATA[Rod Lenniger, President]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2019/02/weedware-implementation-1902.png</image:loc>
+			<image:caption><![CDATA[WeedWare Development Process]]></image:caption>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://klercbd.com/company/contact-us/</loc>
-		<lastmod>2019-07-01T09:03:14-07:00</lastmod>
+		<lastmod>2019-07-10T08:34:21-07:00</lastmod>
 	</url>
 	<url>
 		<loc>https://klercbd.com/request-a-demo/</loc>
-		<lastmod>2019-07-01T09:08:05-07:00</lastmod>
+		<lastmod>2019-07-10T08:53:07-07:00</lastmod>
 	</url>
 </urlset>
 <!-- XML Sitemap generated by Yoast SEO -->
@@ -306,5 +297,5 @@
 Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
 
 
-Served from: wp.klercbd @ 2019-07-08 16:59:15 by W3 Total Cache
+Served from: wp.klercbd @ 2019-07-10 09:08:24 by W3 Total Cache
 -->
