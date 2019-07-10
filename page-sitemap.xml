@@ -172,52 +172,12 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://klercbd.com/request-submitted/</loc>
-		<lastmod>2019-06-19T16:21:53-07:00</lastmod>
-	</url>
-	<url>
 		<loc>https://klercbd.com/terms/</loc>
 		<lastmod>2019-06-19T16:23:30-07:00</lastmod>
 	</url>
 	<url>
 		<loc>https://klercbd.com/support/knowledge-base/</loc>
 		<lastmod>2019-06-19T16:28:39-07:00</lastmod>
-	</url>
-	<url>
-		<loc>https://klercbd.com/features/wholesale/</loc>
-		<lastmod>2019-06-20T15:09:43-07:00</lastmod>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/contacts-128.png</image:loc>
-			<image:caption><![CDATA[Contact Management]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/search-128.png</image:loc>
-			<image:caption><![CDATA[Customer Opportunity Management]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/chart-128.png</image:loc>
-			<image:caption><![CDATA[Sales Performance Management]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/list.png</image:loc>
-			<image:caption><![CDATA[Data Collection]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/inventory-128.png</image:loc>
-			<image:caption><![CDATA[Inventory]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/locations-128.png</image:loc>
-			<image:caption><![CDATA[Tracking Seed to Sale]]></image:caption>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://klercbd.com/features/security/</loc>
-		<lastmod>2019-06-20T15:11:04-07:00</lastmod>
-	</url>
-	<url>
-		<loc>https://klercbd.com/features/reporting-data/</loc>
-		<lastmod>2019-06-20T15:12:38-07:00</lastmod>
 	</url>
 	<url>
 		<loc>https://klercbd.com/thc/</loc>
@@ -304,49 +264,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://klercbd.com/features/pos/</loc>
-		<lastmod>2019-07-10T08:23:12-07:00</lastmod>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/POS-SS-1.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/terminal-with-screen.jpg</image:loc>
-			<image:caption><![CDATA[WeedWare Hardware Photo]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/WeedWareAndroidProducts.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/WeedWareAndroidPayment.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/disco-ss-2.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/metrc.jpg</image:loc>
-			<image:caption><![CDATA[Metrc Logo]]></image:caption>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://klercbd.com/features/grow/</loc>
-		<lastmod>2019-07-10T08:27:04-07:00</lastmod>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/grow.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/expenses.png</image:loc>
-			<image:caption><![CDATA[WeedWare Expense Screen]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/compliance.png</image:loc>
-			<image:caption><![CDATA[WeedWare Compliance Options]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/dashboards.png</image:loc>
-			<image:caption><![CDATA[WeedWare Reporting Features]]></image:caption>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://klercbd.com/company/</loc>
 		<lastmod>2019-07-10T08:32:10-07:00</lastmod>
 		<image:image>
@@ -387,11 +304,94 @@
 		<loc>https://klercbd.com/company/contact-us/</loc>
 		<lastmod>2019-07-10T14:39:30-07:00</lastmod>
 	</url>
+	<url>
+		<loc>https://klercbd.com/features/pos/</loc>
+		<lastmod>2019-07-10T15:31:28-07:00</lastmod>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/POS-SS-1.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/terminal-with-screen.jpg</image:loc>
+			<image:caption><![CDATA[WeedWare Hardware Photo]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/WeedWareAndroidProducts.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/WeedWareAndroidPayment.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/disco-ss-2.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/metrc.jpg</image:loc>
+			<image:caption><![CDATA[Metrc Logo]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://klercbd.com/features/grow/</loc>
+		<lastmod>2019-07-10T15:32:48-07:00</lastmod>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2019/06/grow.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/expenses.png</image:loc>
+			<image:caption><![CDATA[WeedWare Expense Screen]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/compliance.png</image:loc>
+			<image:caption><![CDATA[WeedWare Compliance Options]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/dashboards.png</image:loc>
+			<image:caption><![CDATA[WeedWare Reporting Features]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://klercbd.com/features/wholesale/</loc>
+		<lastmod>2019-07-10T15:34:57-07:00</lastmod>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/contacts-128.png</image:loc>
+			<image:caption><![CDATA[Contact Management]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/search-128.png</image:loc>
+			<image:caption><![CDATA[Customer Opportunity Management]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/chart-128.png</image:loc>
+			<image:caption><![CDATA[Sales Performance Management]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/list.png</image:loc>
+			<image:caption><![CDATA[Data Collection]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/inventory-128.png</image:loc>
+			<image:caption><![CDATA[Inventory]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://klercbd.com/wp-content/uploads/2018/11/locations-128.png</image:loc>
+			<image:caption><![CDATA[Tracking Seed to Sale]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://klercbd.com/features/security/</loc>
+		<lastmod>2019-07-10T15:36:43-07:00</lastmod>
+	</url>
+	<url>
+		<loc>https://klercbd.com/features/reporting-data/</loc>
+		<lastmod>2019-07-10T15:38:17-07:00</lastmod>
+	</url>
+	<url>
+		<loc>https://klercbd.com/request-submitted/</loc>
+		<lastmod>2019-07-10T15:41:02-07:00</lastmod>
+	</url>
 </urlset>
 <!-- XML Sitemap generated by Yoast SEO -->
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
 
 
-Served from: wp.klercbd @ 2019-07-10 14:47:55 by W3 Total Cache
+Served from: wp.klercbd @ 2019-07-10 15:47:36 by W3 Total Cache
 -->
