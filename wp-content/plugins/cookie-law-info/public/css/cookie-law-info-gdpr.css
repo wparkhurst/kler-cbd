@@ -129,7 +129,7 @@
 .cli-switch .cli-slider:before {background-color: #fff;bottom: 2px;content: "";height: 15px;left: 3px;position: absolute;transition: .4s;width: 15px;}
 .cli-switch input:checked + .cli-slider {background-color: #28a745;}
 .cli-switch input:checked + .cli-slider:before {transform: translateX(18px);}
-.cli-switch .cli-slider {border-radius: 34px;}
+.cli-switch .cli-slider {border-radius: 34px;font-size: 0;}
 .cli-switch .cli-slider:before {border-radius: 50%;}
 .cli-tab-content {background: #fff;}
 .cli-nav-pills {display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;padding-left: 0;margin-bottom: 0;list-style: none;-ms-flex-direction: column;flex-direction: column;}

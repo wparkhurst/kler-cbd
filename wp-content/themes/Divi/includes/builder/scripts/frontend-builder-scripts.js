@@ -389,25 +389,27 @@ var isBuilder = 'object' === typeof window.ET_Builder;
 					et_fix_slider_height( $et_slider );
 				} );
 
-				$et_slider.et_slider_move_to = function ( direction ) {
-					var $active_slide = $et_slide.eq( et_active_slide );
+				$et_slider.et_slider_move_to = function (direction) {
+					$et_slide = $et_slider.closest_descendent(settings.slide);
+					var $active_slide = $et_slide.eq(et_active_slide);
 
 					$et_slider.et_animation_running = true;
 
-					$et_slider.removeClass('et_slide_transition_to_next et_slide_transition_to_previous').addClass('et_slide_transition_to_' + direction );
+					$et_slider.removeClass('et_slide_transition_to_next et_slide_transition_to_previous').addClass('et_slide_transition_to_' + direction);
 
 					$et_slider.find('.et-pb-moved-slide').removeClass('et-pb-moved-slide');
 
-					if ( direction == 'next' || direction == 'previous' ){
+					if (direction === 'next' || direction === 'previous'){
 
-						if ( direction == 'next' )
-							et_active_slide = ( et_active_slide + 1 ) < et_slides_number ? et_active_slide + 1 : 0;
-						else
-							et_active_slide = ( et_active_slide - 1 ) >= 0 ? et_active_slide - 1 : et_slides_number - 1;
+						if (direction === 'next') {
+							et_active_slide = (et_active_slide + 1) < et_slides_number ? et_active_slide + 1 : 0;
+						} else {
+							et_active_slide = (et_active_slide - 1) >= 0 ? et_active_slide - 1 : et_slides_number - 1;
+						}
 
 					} else {
 
-						if ( et_active_slide == direction ) {
+						if (et_active_slide === direction) {
 							$et_slider.et_animation_running = false;
 							return;
 						}
@@ -422,7 +424,7 @@ var isBuilder = 'object' === typeof window.ET_Builder;
 						clearTimeout(et_slider_timer);
 					}
 
-					var $next_slide	= $et_slide.eq( et_active_slide );
+					var $next_slide	= $et_slide.eq(et_active_slide);
 
 					$et_slider.trigger('slide', {current: $active_slide, next: $next_slide});
 
@@ -3092,7 +3094,7 @@ var isBuilder = 'object' === typeof window.ET_Builder;
 							}
 
 							// add error message for the field if it is required and empty
-							if ('required' === required_mark && ('' === this_val || true === unchecked)) {
+						if ('required' === required_mark && ('' === this_val || true === unchecked) && ! $this_el.is('[id^="et_pb_contact_et_number_"]')) {
 
 								if (false === $this_wrapper) {
 									$this_el.addClass('et_contact_error');
@@ -4080,7 +4082,8 @@ var isBuilder = 'object' === typeof window.ET_Builder;
 				});
 			}
 
-			function et_animate_element( $element ) {
+			function et_animate_element($elementOriginal) {
+				var $element = $elementOriginal;
 				if ($element.hasClass('et_had_animation')) {
 					return;
 				}
@@ -4092,6 +4095,7 @@ var isBuilder = 'object' === typeof window.ET_Builder;
 				var animation_intensity        = $element.attr('data-animation-intensity');
 				var animation_starting_opacity = $element.attr('data-animation-starting-opacity');
 				var animation_speed_curve      = $element.attr('data-animation-speed-curve');
+				var $buttonWrapper             = $element.parent('.et_pb_button_module_wrapper');
 
 				// Avoid horizontal scroll bar when section is rolled
 				if ($element.is('.et_pb_section') && 'roll' === animation_style) {
@@ -4107,6 +4111,12 @@ var isBuilder = 'object' === typeof window.ET_Builder;
 				// Check if the animation speed curve is one of the allowed ones and set it to the default one if it is not
 				if ( $.inArray( animation_speed_curve, ['linear', 'ease', 'ease-in', 'ease-out', 'ease-in-out'] ) === -1 ) {
 					animation_speed_curve = 'ease-in-out';
+				}
+
+				if ($buttonWrapper.length > 0) {
+					$element.removeClass('et_animated');
+					$element = $buttonWrapper;
+					$element.addClass('et_animated');
 				}
 
 				$element.css({
@@ -6105,6 +6115,8 @@ var isBuilder = 'object' === typeof window.ET_Builder;
 
 	$(window).load(function() {
 		var $body = $('body');
+		// set load event here because safari sometimes will not run load events registered on et_pb_init_modules.
+		window.et_load_event_fired = true;
 		// fix Safari letter-spacing bug when styles applied in `head`
 		// Trigger styles redraw by changing body display property to differentvalue and reverting it back to original.
 		if ($body.hasClass('safari')) {
